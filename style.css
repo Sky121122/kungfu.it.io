@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    text-align: center;
+    background-color: rgb(231, 219, 166);
+}
+#title{
+    height: 150px;
+    width: 400px;
+    margin-top: 20px;
+}
+#board{
+    height: 400px;
+    width: 400px;
+    align-content: center;
+    margin-top: 40px;
+    background-color: rgb(235, 170, 170);
+    border: 10px solid rgb(234, 4, 0);
+}
+#board img{
+    width: 125px;
+    height: 125px;
+    border: 1px solid crimson;
+}
+footer{
+    margin-top: 30px;
+}
